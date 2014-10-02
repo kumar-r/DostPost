@@ -1,0 +1,37 @@
+
+    <div class = "dostpost">
+
+            <div class="panel-heading">
+                <h3 class="glyphicon glyphicon-comment panel-title">&nbsp;<strong>Dost Post</strong></h3>
+            </div>
+            <div class ="postBox">
+                <ul class="nav nav-pills posttype">
+                    <li class="active"><a href="">Post</a></li>
+                    <li><a href="">Share Image</a></li>
+                </ul>
+                <br/>
+
+                <div class="input-group">
+                    <textarea type="text" class="form-control" placeholder="Let all know your great idea.."/>
+                    <div class="input-group-btn">
+                        <button id = "btnShare" type="button" class="btn btn-default" ng-click = "Post()">Share</button>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-body panel-body-list">
+                <div ng-include = "'html/post.html'">
+
+                </div>
+                <div ng-include = "'html/post.html'">
+
+                </div>
+                <div ng-include = "'html/post.html'">
+
+                </div>
+                <div ng-include = "'html/post.html'">
+
+                </div>
+            </div>
+
+
+    </div>

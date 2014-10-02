@@ -1,0 +1,54 @@
+<div class="sub-content" ng-controller = "ProfileController">
+    <div class ="row">
+        <div class="col-md-12 banner">
+            <div class="profileImage">
+                <img src="images/rohit.png">
+            </div>
+            <div class="profileName">
+                Rohit Bansal
+            </div>
+        </div>
+        <div class="col-md-12 profileNav">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default" ng-click = "showDostPost()">Dost Post</button>
+                <button type="button" class="btn btn-default" ng-click = "showAlbum()">Photo</button>
+                <button type="button" class="btn btn-default" ng-click = "showThoughts()">Thoughts</button>
+            </div>
+        </div>
+    </div>
+
+    <div class = "personalinfo">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="glyphicon glyphicon-user panel-title">&nbsp;<strong>{{panelHeader}}</strong></h3>
+            </div>
+            <div class="panel-body panel-body-list">
+                <div class ="col-md-2">
+                    <div class="list-group">
+                        <a href="" class="list-group-item"  ng-click = "setView(0); panelHeader = 'Overview'">Overview</a>
+                        <a href="" class="list-group-item" ng-click = "setView(1); panelHeader = 'Work'">Work</a>
+                        <a href="" class="list-group-item" ng-click = "setView(2); panelHeader = 'Education'">Education</a>
+                        <a href="" class="list-group-item" ng-click = "setView(5); panelHeader = 'About'">About me</a>
+                    </div>
+                </div>
+                <div class ="col-md-8 vertical_line_left">
+                    <div ng-include = "htmlView"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class = "albums">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="glyphicon glyphicon-picture panel-title">&nbsp;<strong>Photos</strong></h3>
+            </div>
+            <div class="panel-body panel-body-list">
+                <div ng-include = "'html/albumPreview.html'">
+
+                </div>
+             </div>
+
+            </div>
+        </div>
+</div>

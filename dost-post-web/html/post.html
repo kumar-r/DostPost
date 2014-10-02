@@ -1,0 +1,49 @@
+<div class="row post">
+<div class = "col-lg-8 col-md-8 ">
+
+        <div class="data_panel_pic">
+            <img src="images/rohit.png">
+            <strong>Rohit Bansal</strong>
+        </div>
+        <div class="starBox">
+
+            <rating ng-show ="isRate" id = "postStar" ng-init = "rate = 2" ng-model="rate" max="5" readonly="true"></rating>
+            <rating  ng-hide ="isRate" id = "postStar" ng-init = "rate = 3" ng-model="rate" max="5" readonly="true"></rating>
+
+            <div class="btn-group" dropdown>
+                <button type="button" class="btn btn-default"><i class="glyphicon glyphicon-cog"></i></button>
+                <button type="button" class="btn btn-default dropdown-toggle">
+                    <span class="caret"></span>
+                    <span class="sr-only">Split button!</span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="">Rate</a></li>
+                    <li><a href="#">Share view</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Delete</a></li>
+                    <li><a href="#">Edit</a></li>
+                </ul>
+            </div>
+        </div>
+    <div class = "postContent vertical_line_right">
+        <p>
+            Rohit has more than 20 years of experience in leading engineering teams with a focus on guiding organisational behaviour. Prior to co-founding Sahaj, Rohit played multiple leadership roles with ThoughtWorks for more than 15 years.
+            Rohit established the operations of ThoughtWorks India
+        </p>
+    </div>
+
+</div>
+<div class="col-lg-4 col-md-4 ">
+    <div class="replyBox ">
+        <div class = "comments">
+               <p>sfaffaaf</p>
+        </div>
+    </div>
+    <div class ="commentText">
+        <div class="form-group">
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="comment">
+        </div>
+    </div>
+</div>
+</div>
+

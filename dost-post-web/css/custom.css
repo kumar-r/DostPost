@@ -1,0 +1,289 @@
+body
+{
+    background-color: #DBDCDE;
+}
+.logo
+{
+   width: 150px;
+   height: 49px;
+}
+.menu-bar
+{
+    background-color: #002230;
+    border-color: rgb(70, 68, 68);
+}
+.content
+{
+    margin-left: 20px;
+}
+.sub-content
+{
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.login-content
+{
+margin-top: 40px;
+    margin-left:20px;
+    width: 70%
+}
+.intro
+{
+    margin-top: 50px;
+    text-align: center;
+    background: #000;
+}
+.hrLine
+{
+    border: 1px solid rgb(70, 68, 68);
+}
+.navlogin
+{
+    text-align : center;
+    padding-left :10px;
+    padding-right :100px;
+}
+input.form-control.searchtext
+{
+    width:300px;
+}
+.vertical_line_left
+{
+    border-left: 1px solid silver;
+}
+.vertical_line_right
+{
+    border-right: 1px solid silver;
+}
+.data_panel
+{
+    border: 1px #D3D0D0 solid;
+    background-color: #E0E4F9;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 9px 6px 9px 0px #888888;
+    -webkit-box-shadow: 9px 6px 9px 0px #888888;
+    box-shadow: 9px 6px 9px 0px #888888;
+    padding:20px 20px 20px 20px;
+    height: 275px;
+    margin-top: 30PX;
+}
+.data_panel_content
+{
+    	text-overflow: ellipsis;
+    	overflow: hidden;
+    	height: 200px;
+    	margin-top: -18px;
+}
+.data_panel_pic
+{
+
+}
+.data_panel_pic>img
+{
+    width:40px;
+}
+.data_panel_title
+{
+    color :white;
+}
+.data_panel_pic>strong
+{
+color : rgb(53, 81, 6);
+}
+.banner
+{
+    background : url('../images/banner.jpg') 100% no-repeat;
+   height: 300px;
+   width: 97.3%;
+   margin-left: 15px;
+   background-size: 100% 100%;
+   background-color: silver;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+
+}
+.profileImage
+{
+    margin-top: 130px;
+    margin-left: 70px;
+
+}
+.profileName
+{
+    margin-top: -75px;
+    margin-left: 257px;
+    color: white;
+    font-size: 25px;
+}
+.personalinfo
+{
+margin-top: 33px;
+}
+.panel-body-list
+{
+    margin-left: -30px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.list-group-item
+{
+    border : 0px;
+}
+.list-group
+{
+
+margin-right: -15px;
+}
+.profileNav
+{
+    text-align: right;
+    margin-top: -42px;
+}
+.overview
+{
+    margin-right: -200px;
+    margin-top: 30px;
+    padding-left: 70px;
+}
+.work>p>img
+{
+    width:20px;
+}
+.education>p>img
+{
+    width:20px;
+}
+.home>p>img
+{
+    width:15px;
+}
+.contact
+{
+    color: gray;
+    font-size :12px;
+}
+.contact>p>img
+{
+    width:15px;
+}
+.workTitle>p
+{
+    font-size: 12px;
+    color: gray;
+}
+.sub-title
+{
+     font-size: 12px;
+     color: gray;
+     margin-top: -20px;
+     margin-left: 47px;
+}
+.workinfo>p>img
+{
+    width:35px;
+}
+.aboutme>p
+{
+    margin-right: 110px;
+}
+.albumPreview
+{
+    margin-top :20px;
+}
+.thoughts
+{
+    margin-left: 20px;
+    margin-right: -11px;
+}
+.previewPhoto
+{
+    background-color : black;
+    text-align : center
+}
+.previewPhoto>img
+{
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    max-height:80%;
+}
+.dostpost
+{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.postBox
+{
+    background-color:white;
+    text-align : center;
+    margin: 20px 200px 0px 210px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:1px solid silver;
+}
+.postBox>.input-group>input
+{
+    height: 50px;
+}
+.posttype
+{
+    text-align : center;
+}
+.post
+{
+  background-color: white;
+  margin-left: 225px;
+  margin-right: 183px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  border: 1px #D3D0D0 solid;
+  border-radius: 6px;
+  }
+.starBox
+{
+    text-align: right;
+    margin-top: -45px;
+    margin-right: -20px;
+}
+#btnShare
+{
+    height: 55px;
+}
+#postStar
+{
+padding-right: 10px;
+color: rgb(58, 112, 213);
+}
+.replyBox
+{
+    height: 100%;
+    text-align: right;
+    font-size: 11px;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    margin-right: -20px;
+}
+.postContent
+{
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: left;
+    margin-right: -40px;
+}
+.commentText
+{
+
+}
+.comments
+{
+
+}
